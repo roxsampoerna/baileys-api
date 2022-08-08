@@ -7,7 +7,7 @@ import cors from 'cors'
 
 const app = express()
 
-const host = process.env.HOST || undefined
+const host = "http://localhost";
 const port = parseInt(3000)
 
 app.use(cors())
